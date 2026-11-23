@@ -1,0 +1,21 @@
+# 构建产物
+dist/
+bin/
+obj/
+*.exe
+!src/tools/*.cs
+
+# 用户配置（运行时生成，不应入库）
+routes.txt
+current.txt
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
